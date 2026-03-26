@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Ambientes de trabalho
+.vscode/
+.idea/
+
+# Imagens de teste (opcional)
+*.jpg
+*.png
+*.webp
