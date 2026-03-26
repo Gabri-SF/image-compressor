@@ -34,14 +34,14 @@ A lightweight, powerful Python tool to recursively compress and resize images (*
    
 ## Examples
    ```bash
-   python compress_images.py ./images # Basic Usage
-   python compress_images.py ./images --quality 80 # Set custom quality
-   python compress_images.py ./images --max-width 1200 --max-height 800 # Resize images (max width / height)
-   python compress_images.py ./images --dry-run # Dry run (no file changes)
-   python compress_images.py ./images --quality 75 --max-width 1920 --dry-run # Combine options (most common use)
-   python compress_images.py ./images --quality 50 # Apply aggressive compression
-   python compress_images.py . # Process current directory
-   python compress_images.py /Users/gabriel/Desktop/photos --quality 70 # Use absolute path
+   python compress.py ./images # Basic Usage
+   python compress.py ./images --quality 80 # Set custom quality
+   python compress.py ./images --max-width 1200 --max-height 800 # Resize images (max width / height)
+   python compress.py ./images --dry-run # Dry run (no file changes)
+   python compress.py ./images --quality 75 --max-width 1920 --dry-run # Combine options (most common use)
+   python compress.py ./images --quality 50 # Apply aggressive compression
+   python compress.py . # Process current directory
+   python compress.py /Users/gabriel/Desktop/photos --quality 70 # Use absolute path
    ```
 ## Tips
 - Use --dry-run first to avoid unwanted quality loss
