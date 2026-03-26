@@ -22,5 +22,5 @@ A lightweight, powerful Python tool to recursively compress and resize images (*
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/Gabri-SF/image-compressor.git
    cd image-compressor
