@@ -1,8 +1,7 @@
-![Python Version](https://img.shields.io)
-![Pillow](https://img.shields.io)
-![License](https://img.shields.io)
-![Repo Size](https://img.shields.io)
-![Last Commit](https://img.shields.io)
+![Python Version](https://img.shields.io/badge/python-3.10+-blue)
+![Pillow](https://img.shields.io/badge/Pillow-supported-green)
+![License](https://img.shields.io/github/license/Gabri-SF/image-compressor)
+![Last Commit](https://img.shields.io/github/last-commit/Gabri-SF/image-compressor)
 
 # 📸 Batch Image Compressor CLI
 
