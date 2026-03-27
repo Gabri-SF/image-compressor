@@ -6,7 +6,8 @@
 # 📸 Batch Image Compressor CLI
 
 
-A lightweight, powerful Python tool to recursively compress and resize images (**JPG, PNG, WebP**) while preserving folder structures. It automatically skips build folders (like `node_modules` or `.git`) and only overwrites files if the compression actually reduces the file size.
+A lightweight, powerful Python tool to recursively compress and resize images (**JPG, PNG, WebP**) while preserving folder structures. It automatically skips build folders (like `node_modules` or `.git`) and only overwrites files if the compression actually reduces the file size. 
+Successfully reduced final build size of AeroTéc website, improving overall performance.
 
 ## ✨ Features
 
