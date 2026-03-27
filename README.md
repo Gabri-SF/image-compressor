@@ -35,7 +35,7 @@ A lightweight, powerful Python tool to recursively compress and resize images (*
 ## Examples
    ```bash
    python compress.py ./images # Basic Usage
-   python compress.py ./images --quality 80 # Set custom quality
+   python compress.py ./images --quality 80 # Set custom quality (0-100 scale)
    python compress.py ./images --max-width 1200 --max-height 800 # Resize images (max width / height)
    python compress.py ./images --dry-run # Dry run (no file changes)
    python compress.py ./images --quality 75 --max-width 1920 --dry-run # Combine options (most common use)
