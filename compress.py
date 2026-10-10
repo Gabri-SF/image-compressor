@@ -75,7 +75,7 @@ def compress_image(image_path, quality, max_width, max_height, dry_run):
 
         savings = original_size - new_size
 
-        print(f"{'🧪 [DRY]' if dry_run else '✔'} {image_path}")
+        print(f"{' [DRY]' if dry_run else '✔'} {image_path}")
         print(f"   {original_size/1024:.1f}KB → {new_size/1024:.1f}KB (↓ {savings/1024:.1f}KB)")
 
     except Exception as e:
@@ -102,7 +102,7 @@ def process_folder(folder, quality, max_width, max_height, dry_run):
                 )
                 total += 1
 
-    print(f"\n✅ Total de imagens processadas: {total}")
+    print(f"\n Total de imagens processadas: {total}")
 
 
 def main():
@@ -122,10 +122,10 @@ def main():
         print(f"Erro: caminho não existe -> {folder_path}")
         return
 
-    print(f"\n📂 Pasta: {folder_path}")
-    print(f"⚙️ Qualidade: {args.quality}")
+    print(f"\n Pasta: {folder_path}")
+    print(f" Qualidade: {args.quality}")
     if args.dry_run:
-        print("🧪 Modo DRY-RUN (sem alterações)\n")
+        print(" Modo DRY-RUN (sem alterações)\n")
 
     process_folder(
         folder_path,
